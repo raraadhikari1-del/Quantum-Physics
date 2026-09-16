@@ -130,7 +130,6 @@ h1, h2, h3, h4, h5, h6 {
     left: 30px;
     bottom: 30px;
     color: white;
-
 }
 .card-text h3 {
     font-family: 'Orbitron', sans-serif;
@@ -193,4 +192,110 @@ h1, h2, h3, h4, h5, h6 {
 .crit:hover{
     transform: scale(1.06) translateY(612px) translateZ(5px) skewX(-2deg);
     box-shadow: #14283d 20px;
+    align-items: center;
+}
+.about-links{
+    flex: 1;
+    text-align: center;
+}
+.about-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px 22px;
+    position: relative;
+}
+.about-links ul li a{
+    color: #00b7ff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Orbitron', sans-serif;
+}
+.about-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(20, 40, 61, 0.85);
+}
+.about-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.about-links ul li:hover::after {
+    width: 100%;
+}
+.about-page {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 10% 50px;
+    box-sizing: border-box;
+
+    background-image: url("image/aboutus.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content {
+    max-width: 800px;
+    margin: 0;
+    text-align: left;
+}
+.content h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: #00b7ff;
+    margin-top: 25px;
+}
+.content p {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #fff;
+}
+.content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #fff;
+}
+.courses-links{
+    flex: 1;
+    text-align: center;
+}
+.courses-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px 22px;
+    position: relative;
+}
+.courses-links ul li a{
+    color: #00b7ff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Orbitron', sans-serif;
+}
+.courses-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(20, 40, 61, 0.85);
+}
+.courses-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.courses-links ul li:hover::after {
+    width: 100%;
 }
