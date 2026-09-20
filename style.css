@@ -235,7 +235,6 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100vh;
     padding: 100px 10% 50px;
     box-sizing: border-box;
-
     background-image: url("image/aboutus.jpg");
     background-size: cover;
     background-position: center;
@@ -298,4 +297,164 @@ h1, h2, h3, h4, h5, h6 {
 }
 .courses-links ul li:hover::after {
     width: 100%;
+}
+.courses-page{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    box-sizing: border-box;
+    background: #5f6872;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.courses-heading {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.courses-heading h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 25px;
+}
+.courses-heading p{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #0cffb68c;
+}
+.topic-list {
+    width: 85%;
+    margin: 70px auto;
+}
+.topic {
+    background: rgba(0, 0, 0, 0.85);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 183, 255, 0.45);
+}
+.topic h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00f7ff;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.topic p {
+    font-family: 'IBM Plex Serif', serif;
+    color: rgba(0, 235, 78, 0.829);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.equation {
+    font-family: 'Orbitron', sans-serif;
+    color: #09ceff;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+}
+.books-title{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 100px;
+}
+.books-title h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    color: #4c00ff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.books-title p{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 22px;
+    color: #fd003f;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgba(2, 116, 151, 0.85);
+}
+.books-table {
+    width: 90%;
+    margin: 0 auto;
+    column-span: 2px;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+    overflow: hidden;
+}
+table, th, td {
+  border: 2px solid white;
+  padding: 10px;
+}
+.books-table th {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+}
+.books-table td {
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+}
+.books-table a {
+    color: #00b7ff;
+    text-decoration: none;
+}
+.last{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    color: #400cfc;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.members {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 10% 50px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.members h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: #ff0062;
+    margin-top: 25px;
+}
+.mean {
+    background-color: #14283d;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    border: 2px solid rgba(0, 75, 105, 0.45);
+    min-height: 350px;
+}
+.group {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: #00b7ff;
+    margin-top: 25px;
+    padding: 10px;
+}
+.group-list {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 18px;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #34b428;
 }
