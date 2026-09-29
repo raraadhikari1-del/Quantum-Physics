@@ -337,6 +337,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
     border-radius: 18px;
     border: 1px solid rgba(0, 183, 255, 0.45);
+    transition: 0.3s;
+}
+.topic:hover{
+    transform: scale(1.06);
+    box-shadow: #14283d 20px;
 }
 .topic h2 {
     font-family: 'Orbitron', sans-serif;
@@ -370,9 +375,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
     font-size: 36px;
     color: #4c00ff;
-    max-width: 800px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 20px;
+    background: linear-gradient(25deg, #00ff15, #00ff806b);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.books-title h1:hover{
+    background: linear-gradient(25deg, #00ff15, #00ff806b);
+    transform: scale(1.06);
+    box-shadow: #14283d 20px;
 }
 .books-title p{
     font-family: 'IBM Plex Serif', serif;
@@ -381,7 +394,14 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
-    background: rgba(2, 116, 151, 0.85);
+    background: linear-gradient(25deg, #0089b367, #03b7eeb0);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.books-title p:hover{
+    background: linear-gradient(25deg, #0089b367, #03b7eeb0);
+    transform: scale(1.06);
+    box-shadow: #14283d 20px;
 }
 .books-table {
     width: 90%;
@@ -399,7 +419,7 @@ table, th, td {
 .books-table th {
     color: white;
     font-family: 'Orbitron', sans-serif;
-    font-size: 18px;
+    font-size: 30px;
 }
 .books-table td {
     color: white;
@@ -416,7 +436,9 @@ table, th, td {
     color: #400cfc;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
+    background: linear-gradient(25deg, #99ce9e, #bdb7b76b);
+    border-radius: 10px;
 }
 .members {
     width: 100%;
@@ -432,6 +454,19 @@ table, th, td {
     font-size: 30px;
     color: #ff0062;
     margin-top: 25px;
+    background: linear-gradient(25deg, #eeff00, #ffa600);
+    transition: 0.3s;
+    background-color: #00ff15;
+    background-size: cover;
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.members h1:hover{
+    background: linear-gradient(25deg, #eeff00, #ffa600);
+    transform: scale(1.06);
+    box-shadow: #14283d 20px;
 }
 .mean {
     background-color: #14283d;
@@ -443,6 +478,11 @@ table, th, td {
     border-radius: 18px;
     border: 2px solid rgba(0, 75, 105, 0.45);
     min-height: 350px;
+    transition: 0.3s;
+}
+.mean:hover{
+    transform: scale(1.06);
+    box-shadow: #14283d 20px;
 }
 .group {
     font-family: 'Orbitron', sans-serif;
